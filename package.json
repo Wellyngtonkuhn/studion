@@ -1,0 +1,27 @@
+{
+  "name": "studioon",
+  "version": "0.0.1",
+  "description": " Criando a Home para o projeto Studion Events",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wellyngtonkuhn/studion.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT"
+  ],
+  "author": "Wellyngton Antonio Kuhn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wellyngtonkuhn/studion/issues"
+  },
+  "homepage": "https://github.com/Wellyngtonkuhn/studion#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
