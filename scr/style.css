@@ -221,6 +221,58 @@ footer{
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.349);
 }
 
+/* Sessão Quote */
+
+.quote{
+    background-image: url(./images/parallax.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-quote{
+    max-width: 1148px;
+    min-height: 80vh;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    justify-content: end;
+}
+
+.quote-content{
+    background-color: #fff;
+    padding: 5.625rem 4.375rem;
+}
+
+.quote-content h6{
+    font-weight: 400;
+    font-size: .9375rem;
+    letter-spacing: .1875rem;
+    line-height: 1.4375rem;
+    width: 53ch;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.quote-content h2{
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: -.1875rem;
+    line-height: 5rem;
+    margin: 1.875rem;
+}
+
+.quote-content h2 span{
+    display: block;
+}
+
+.btn-quote{
+    color: var(--color-paragrafo);
+    border-color: var(--color-paragrafo);
+    background: unset;
+}
+
 
 
 
