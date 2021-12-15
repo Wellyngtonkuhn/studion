@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto&display=swap');
 
 
 
@@ -11,24 +11,40 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     --color-primary:#ffc500;
+    --color-paragrafo: #333;
     --default-padding: 1rem;
+    color: var(--color-paragrafo);
 }
 body{
     padding-top: 7em;
 }
+header,
+main,
+footer{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1148px;
+    margin: 0 auto;
+}
 
 .navbar{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar .container{
     display: grid;
     grid-template-columns: 1fr 9fr;
     align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
     height: 3rem;
-    background-color: #000;
-    color: #fff;
     padding: 2rem;
-    z-index: 1;
 }
 
 .navbar ul{
@@ -80,7 +96,7 @@ body{
 }
 
 .slide {
-    height: calc(100vh - 7rem);
+    height: calc(90vh - 7rem);
     position: relative;
 }
 
@@ -133,12 +149,77 @@ body{
 
 .btn:hover,
 .btn:active,
-.btn:focus {
+.btn:focus,
+.btn-institutional {
     border-color: var(--color-primary);
     background-color: #ffc500;
     color: #fff;
 }
 
+/* Sessão Cunter*/
+
+#counter{
+    background-color: var(--color-primary);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#counter ul{
+    padding: 4.375rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    place-items: center;
+}
+
+#counter h3{
+    font-size: 2.1875rem;
+}
+
+#counter h3 small{
+    font-size: 1.25rem;
+}
+
+/*Sessão Institucional */
+.institutional{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3.125rem;
+    align-items: center;
+    padding: 4.375rem;
+}
+
+.institutional img{
+    max-width: 550px;
+}
+.institutional div{
+    padding: 1.875rem;
+}
+
+.institutional h6{
+    font-weight: 400;
+    font-size: .875rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    margin:0;
+}
+
+.institutional h4{
+    font-size: 1.562rem;
+    margin-top: 1rem;
+}
+
+.institutional p{
+    font-size: 1.0625rem;
+    line-height: 1.6875rem ;
+    font-family: 'Roboto', sans-serif;
+    margin: 2.5rem 0;
+}
+
+.btn-institutional:hover{
+    color: var(--color-paragrafo);
+    background: unset;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.349);
+}
 
 
 
