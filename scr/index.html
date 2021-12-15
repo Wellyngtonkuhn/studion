@@ -9,25 +9,27 @@
 </head>
 <body>
     <nav class="navbar">
-        <h1 class="logo">Studio<span class="copy-primary">On</span><span class="logo-subtitle">Eventos</span></h1>
-        <ul>
-            <li>
-                <a href="#">Empresa</a>
-            </li>
-            <li>
-                <a href="#eventos">Eventos</a>
-            </li>
-            <li>                
-                <a href="#">Galeria</a>
-            </li>
-            <li>
-                <a href="#">Depoimentos</a>
-            </li>
-            <li>
-                <a href="#">Contato</a>
-            </li>
-        </ul>
-    </nav>   
+        <div class="container">
+            <h1 class="logo">Studio<span class="copy-primary">On</span><span class="logo-subtitle">Eventos</span></h1>
+            <ul>
+                <li>
+                    <a href="#">Empresa</a>
+                </li>
+                <li>
+                    <a href="#eventos">Eventos</a>
+                </li>
+                <li>                
+                    <a href="#">Galeria</a>
+                </li>
+                <li>
+                    <a href="#">Depoimentos</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </div>  
+    </nav> 
 
     <header>
         <div id="slider">
@@ -43,23 +45,32 @@
     </header>
 
     <main>
-        <section>
-            <ul>
-                <li><h3>+ de 500</h3> eventos realizados</li>
-                <li><h3>+ de 1.000.000</h3> de ingressos vendidos</li>
-                <li><h3>+ de 300</h3> empresas atendidas</li>
+        
+        <section id="counter">
+            <ul class="container">
+                <li>
+                    <h3>+ de 500 <small>eventos realizados</small>
+                    </h3>
+                </li>
+                <li>
+                    <h3>+ de 1.000.000 <small>de ingressos vendidos</small>
+                    </h3>
+                </li>
+                <li>
+                    <h3>+ de 300 <small>empresas atendidas</small>
+                    </h3>
+                </li>
             </ul>
         </section>
 
-        <section>
-            <div>
-                <img src="images/institutional.jpg" alt="institutional"/>
-            </div> 
+        <section class="container institutional">
+            <img src="images/institutional.jpg" alt="institutional"/>
+
             <div>
                 <h6>Fazemos seu evento acontecer</h6>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h4>
                 <p>Alias ipsa non quis! Et ipsa voluptas dolorem ipsum officiis quidem nemo ratione. Est ut temporibus obcaecati sit totam fugit blanditiis adipisci.</p>
-                <button>Saiba Mais</button>
+                <button class="btn btn-institutional">Saiba Mais</button>
             </div>
         </section>
 
