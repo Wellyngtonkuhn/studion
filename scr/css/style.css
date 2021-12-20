@@ -224,7 +224,7 @@ footer{
 /* Sessão Quote */
 
 .quote{
-    background-image: url(./images/parallax.jpg);
+    background-image: url(../images/parallax.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -243,6 +243,7 @@ footer{
 .quote-content{
     background-color: #fff;
     padding: 5.625rem 4.375rem;
+    margin: 7rem 0;
 }
 
 .quote-content h6{
