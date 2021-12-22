@@ -85,24 +85,45 @@
         </section>
     </main>
 
-    <footer>
-        <h2>Studio<span>On</span><span>Eventos</span></h2>
-        <form>
-             <label> Receba news e promoções
-                <input type="email" placeholder="email">
-                <button type="submit">Enviar</button>
-             </label>
-        </form>
-        <ul>
-            <li><a href="#" target="_blank">Facebook</a></li>
-            <li><a href="#" target="_blank">Twitter</a></li>
-            <li><a href="#" target="_blank">Youtube</a></li>
-        </ul>
+    <footer class="footer">
+        <div class="container footer-container">
+            <h2 class="logo">Studio<span class="copy-primary">On</span><span class="logo-subtitle">Eventos</span></h2>
+            
+            <form class="footer-form">
+                <label for="email"> Receba news e promoções
+                    <div class="footer-email">
+                        <input id="email" type="email" placeholder="email">
+                        <button type="submit"><i class="fas fa-paper-plane fa-2x"></i></button>
+                    </div>
+                </label>
+            </form>
+            
+            <ul class="footer-social">
+                <li>
+                    <a href="#" target="_blank">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <span class="fa-stack">
+                            <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+                            <i class="fab fa-twitter fa-stack-1x"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <i class="far fa-play-circle fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
         <hr>
         <p>
-            <small>Studio<span>On</span> Todos os direitos reservados.</small>
+            <small>Studio<span class="copy-primary">On</span> Todos os direitos reservados.</small>
         </p>
-
     </footer>
 
 

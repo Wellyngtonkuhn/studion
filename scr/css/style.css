@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css');
+
 
 
 
@@ -168,7 +171,11 @@ footer{
     padding: 4.375rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    place-items: center;
+}
+
+#counter ul li{
+    text-align: center;
+    list-style: none;
 }
 
 #counter h3{
@@ -274,7 +281,105 @@ footer{
     background: unset;
 }
 
+/* Footer */
 
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 0 1rem;
+    align-items: center;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    padding: 5.25rem 0;
+}
+
+.footer .logo{
+    justify-self: start;
+    margin: 0;
+}
+
+.footer-form{
+    display: grid;
+}
+
+.footer-form label{
+    font-size: .875rem;
+    font-weight: 300;
+}
+
+.footer-email{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 3.375rem;
+}
+
+.footer-form input{
+    background-color: var(--color-primary);
+    border: unset;
+    padding: 1rem;
+    font-size: .875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.footer-form input::placeholder{
+    color: #000;
+}
+.footer-form input:focus{
+    outline: unset;
+}
+
+.footer-form button{
+    border: unset;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.footer-form button:hover{
+    color: #fff;
+    background-color: var(--color-paragrafo);
+}
+
+.footer-social{
+    justify-self: end;
+    text-align: center;
+}
+
+.footer ul li {
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+.footer-social a,
+.footer-social a:visited,
+.footer-social a{
+    color: #fff;
+    margin-left: 0.2rem;
+}
+
+.footer-social a .fa-twitter,
+.footer-social a:visited .fa-twitter,
+.footer-social a .fa-twitter{
+    color: #000;
+}
+
+.footer hr{
+    border-color: #fff4;
+    margin: 0;
+}
+
+.footer p{
+    text-align: center;
+    font-size: .875rem;
+    font-weight: 300;
+    margin: 2.5rem 0;
+}
 
 
 
