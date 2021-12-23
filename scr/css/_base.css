@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: var(--color-paragrafo);
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-self: end;
+}
+
+.container{
+    max-width: 1148px;
+    margin: 0 auto;
+}
+
+.logo{
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 2.375rem;
+    line-height: 1ch;
+}
+
+.logo-subtitle{
+    font-weight: 300;
+    font-size: .875rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
