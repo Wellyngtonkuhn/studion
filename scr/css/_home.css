@@ -1,0 +1,155 @@
+
+/* Sessão Slide */
+#slider{
+    background-color: #000;
+    color: #fff;
+}
+
+.slide {
+    height: 90vh;
+    position: relative;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content{
+    position: absolute;
+    top: 6.25rem;
+    left: 50%;
+}
+
+.content h6{
+    font: .9375rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .1875rem;
+}
+
+.content h2{
+    font-size: 6.25rem;
+    text-transform: uppercase;
+    line-height: 6.25rem;
+}
+
+.content h2 span{
+    display: block;
+}
+
+.content span{
+    color: var(--color-primary);
+}
+
+/* Sessão Cunter*/
+
+#counter{
+    background-color: var(--color-primary);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#counter ul{
+    padding: 4.375rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+#counter ul li{
+    text-align: center;
+    list-style: none;
+}
+
+#counter h3{
+    font-size: 2.1875rem;
+}
+
+#counter h3 small{
+    font-size: 1.25rem;
+}
+
+
+/*Sessão Institucional */
+.institutional{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3.125rem;
+    align-items: center;
+    padding: 4.375rem;
+}
+
+.institutional img{
+    max-width: 550px;
+}
+.institutional div{
+    padding: 1.875rem;
+}
+
+.institutional h6{
+    font-weight: 400;
+    font-size: .875rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    margin:0;
+}
+
+.institutional h4{
+    font-size: 1.562rem;
+    margin-top: 1rem;
+}
+
+.institutional p{
+    font-size: 1.0625rem;
+    line-height: 1.6875rem ;
+    font-family: 'Roboto', sans-serif;
+    margin: 2.5rem 0;
+}
+
+/* Sessão Quote */
+.quote{
+    background-image: url(../images/home/parallax.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-quote{
+    max-width: 1148px;
+    min-height: 80vh;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    justify-content: end;
+}
+
+.quote-content{
+    background-color: #fff;
+    padding: 5.625rem 4.375rem;
+    margin: 7rem 0;
+}
+
+.quote-content h6{
+    font-weight: 400;
+    font-size: .9375rem;
+    letter-spacing: .1875rem;
+    line-height: 1.4375rem;
+    width: 53ch;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.quote-content h2{
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: -.1875rem;
+    line-height: 5rem;
+    margin: 1.875rem;
+}
+
+.quote-content h2 span{
+    display: block;
+}

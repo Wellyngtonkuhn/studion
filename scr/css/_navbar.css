@@ -1,0 +1,38 @@
+.navbar{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.navbar .container{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+    height: 3rem;
+    padding: 2rem;
+}
+
+.navbar ul li{
+    margin-right: 3rem;
+    font-size: .875rem;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+    font-weight: 300;
+}
+
+.navbar ul li a.active{
+    color: var(--color-primary);
+}
+
+
+.navbar ul li a:hover{
+    color: var(--color-primary) ;
+}
