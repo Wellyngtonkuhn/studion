@@ -1,0 +1,10 @@
+.sessao-depoimentos{
+    background-color: var(--color-primary);
+}
+
+.depoimentos-display{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+

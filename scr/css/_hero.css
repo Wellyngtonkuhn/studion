@@ -1,19 +1,21 @@
 .hero{
-    height: 34.625rem;
+    height: 90vh;
 }
 
 .hero img{
-    position: absolute;
+    position: relative;
     z-index: -1;
     object-fit: contain;
     object-position: center;
+    height: 100%;
+    margin-left: -3px;
 }
 
 .hero-content{
     position: absolute;
     right: 0;
     bottom: 0;
-    padding: 7rem 1.875rem;
+    padding: 7rem 0;
     width: 50vw;
 }
 
@@ -25,8 +27,16 @@
     margin-bottom: 3rem;
 }
 
+.hero-content h6{
+    color: var(--color-primary);
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
 .hero-content p{
     color: var(--color-content-alt);
     font: .9375rem;
     line-height: 1.875rem;
+    width: 50ch;
 }
