@@ -1,6 +1,8 @@
+
 .sessao-contato{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: -1px;
 }
 
 .contato-content-container,
@@ -45,7 +47,7 @@
 .contato-form h3{
     font-size: 1.562rem;
     color: #fefefe;
-    margin-bottom: 3.937rem;
+    margin-bottom: 2.937rem;
 }
 
 .contato-form label{
@@ -58,4 +60,5 @@
     border-bottom: 1px solid #fefefe;
     background-color: transparent;
     margin-bottom: 2rem;
+    padding-top: 1rem;
 }

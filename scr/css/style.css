@@ -2,17 +2,18 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css');
 
-@import "./scr/css/_variaveis.css";
-@import "./scr/css/_base.css";
-@import "./scr/css/_utilitarios.css";
-@import "./scr/css/_btn.css";
+@import "./_variaveis.css";
+@import "./_base.css";
+@import "./_utilitarios.css";
+@import "./_btn.css";
 
-@import "./scr/css/_navbar.css";
-@import "./scr/css/_hero.css";
-@import "./scr/css/_footer.css";
+@import "./_navbar.css";
+@import "./_hero.css";
+@import "./_footer.css";
 
-@import "./scr/css/_home.css";
-@import "./scr/css/_contato.css";
+@import "./_home.css";
+@import "./__depoimentos.css";
+@import "./_contato.css";
 
 
 
