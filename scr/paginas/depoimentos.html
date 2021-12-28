@@ -54,7 +54,7 @@
         <section class="sessao-depoimentos">
             <div class="container">
                 <div class="depoimentos-display">
-                <div class="content-depoimentos">
+                <div id="slide-um" class="content-depoimentos slide-um">
                     <img src="../images/depoimentos/depoimento_01.png" alt="foto de Alberto Saldanha">
                     <div class="content-nome">
                         <h2>Alberto Saldanha</h2>
@@ -63,7 +63,7 @@
                     <p class="apostrofo">''</p>
                     <p class="content-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eligendi deleniti pariatur, dolore maxime sapiente qui sequi itaque fugit neque. Eum, corrupti. Minima doloribus obcaecati cumque, eius repudiandae voluptatibus recusandae.</p>
                 </div>
-                <div class="content-depoimentos">
+                <div id="slide-dois" class="content-depoimentos slide-dois">
                     <img src="../images/depoimentos/depoimentos_02.png" alt="foto de Mariana Bastos">
                     <div class="content-nome">
                         <h2>Mariana Bastos</h2>
@@ -72,7 +72,7 @@
                     <p class="apostrofo">"</p>
                     <p class="content-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eligendi deleniti pariatur, dolore maxime sapiente qui sequi itaque fugit neque. Eum, corrupti. Minima doloribus obcaecati cumque, eius repudiandae voluptatibus recusandae.</p>
                 </div>
-                <div class="content-depoimentos">
+                <div id="slide-tres" class="content-depoimentos slide-tres">
                     <img src="../images/depoimentos/depoimentos_03.png" alt="foto de Guilerme Silva">
                     <div class="content-nome">
                         <h2>Guilerme Silva</h2>
@@ -85,21 +85,13 @@
 
             
                 <div class="nav-botton">
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
+                    <p id="um">.</p>
+                    <p id="dois">.</p>
+                    <p id="tres">.</p>
                 </div>
             </div>
         </section> 
-
-
-
-
     </main>
-
-
-
-
 
     <footer class="footer">
         <div class="container footer-container">
@@ -143,7 +135,27 @@
     </footer>
 
     <script>
-        
+        const um = document.getElementById('um')
+        const dois = document.getElementById('dois')
+        const tres = document.getElementById('tres')
+
+        um.addEventListener('click', ()=>{
+            document.getElementById('slide-um').style.display = "block"
+            document.getElementById('slide-dois').style.display = "none"
+            document.getElementById('slide-tres').style.display ="none"
+        })
+
+        dois.addEventListener('click', ()=>{
+            document.getElementById('slide-um').style.display = "none"
+            document.getElementById('slide-dois').style.display = "block"
+            document.getElementById('slide-tres').style.display ="none"
+        })
+
+        tres.addEventListener('click', ()=>{
+            document.getElementById('slide-um').style.display = "none"
+            document.getElementById('slide-dois').style.display = "none"
+            document.getElementById('slide-tres').style.display ="block"
+        })        
     </script>
     
 </body>
