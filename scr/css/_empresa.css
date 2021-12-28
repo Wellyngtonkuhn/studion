@@ -1,0 +1,58 @@
+.sessao-empresa{
+    margin-top: -3px;
+    margin-bottom: 0;
+}
+
+.empresa-content{
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    margin: 0 1.875rem;
+}
+
+.empresa-coluna h2{
+    margin-top: 6.8125rem;
+    margin-bottom: 3.3125rem;
+    font-size: 1.5625rem;
+    color: var(--color-paragrafo);
+    line-height: 1.9375rem;
+}
+
+.empresa-coluna p {
+    margin-bottom: 2.4375rem;
+    font-size: 1.0625rem;
+    color: var(--color-paragrafo);
+    font-weight: 400;
+    line-height: 1.0625rem;
+}
+
+.empresa-coluna img{
+    width: 100%;
+    margin-top: 2.75rem;
+}
+
+.sessao-parceiros{
+    background-color: var(--color-primary);
+    margin-top: -8px;
+}
+
+.parceiros-content{
+    padding: 5.8125rem 0;
+    text-align: center;
+}
+
+.parceiros-content h2{
+    font-size: 1.5625rem;
+    color: var(--color-paragrafo);
+    line-height: 1.9375rem;
+    padding-bottom: 3.9375rem;
+}
+
+.video-content{
+    padding: 5rem;
+    max-width: 40rem;
+    margin: auto;
+}
+
+.video-content img{
+    width: 100%;
+}
