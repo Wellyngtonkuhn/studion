@@ -3,7 +3,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css');
 
 @import "./_variaveis.css";
-@import "./_base.css";
+@import "_base.css";
 @import "./_utilitarios.css";
 @import "./_btn.css";
 
