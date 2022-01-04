@@ -1,8 +1,34 @@
 
 /* Sessão Slide */
-#slider{
+.slider{
     background-color: #000;
     color: #fff;
+}
+
+.slider-prev-arrow{
+    left: 1rem;
+    z-index: 1;
+    transform: rotate(-45deg);
+}
+
+.slider-next-arrow{
+    right: 1rem;
+    transform: rotate(135deg);
+}
+
+.slider-prev-arrow::before,
+.slider-next-arrow::before{
+    content: '';
+}
+
+.slider-prev-arrow,
+.slider-next-arrow{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 5px solid #fff;
+    border-right: unset;
+    border-bottom: unset;
+    opacity: 0.8;
 }
 
 .slide {

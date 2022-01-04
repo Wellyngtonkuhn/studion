@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>StudioOn</title>
 </head>
@@ -17,7 +19,7 @@
             </h1>
             <ul>
                 <li>
-                    <a href="#">Empresa</a>
+                    <a href="./empresa.html">Empresa</a>
                 </li>
                 <li>
                     <a href="#eventos">Eventos</a>
@@ -26,7 +28,7 @@
                     <a href="#">Galeria</a>
                 </li>
                 <li>
-                    <a class="active"  href="./depoimentos.html">Depoimentos</a>
+                    <a class="active" href="./depoimentos.html">Depoimentos</a>
                 </li>
                 <li>
                     <a href="./contato.html">Contato</a>
@@ -53,8 +55,8 @@
     <main>
         <section class="sessao-depoimentos">
             <div class="container">
-                <div class="depoimentos-display">
-                <div id="slide-um" class="content-depoimentos slide-um">
+                <div class="depoimentos-display slide-depoimentos">
+                <div class="content-depoimentos">
                     <img src="../images/depoimentos/depoimento_01.png" alt="foto de Alberto Saldanha">
                     <div class="content-nome">
                         <h2>Alberto Saldanha</h2>
@@ -63,7 +65,7 @@
                     <p class="apostrofo">''</p>
                     <p class="content-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eligendi deleniti pariatur, dolore maxime sapiente qui sequi itaque fugit neque. Eum, corrupti. Minima doloribus obcaecati cumque, eius repudiandae voluptatibus recusandae.</p>
                 </div>
-                <div id="slide-dois" class="content-depoimentos slide-dois">
+                <div class="content-depoimentos">
                     <img src="../images/depoimentos/depoimentos_02.png" alt="foto de Mariana Bastos">
                     <div class="content-nome">
                         <h2>Mariana Bastos</h2>
@@ -72,7 +74,7 @@
                     <p class="apostrofo">"</p>
                     <p class="content-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eligendi deleniti pariatur, dolore maxime sapiente qui sequi itaque fugit neque. Eum, corrupti. Minima doloribus obcaecati cumque, eius repudiandae voluptatibus recusandae.</p>
                 </div>
-                <div id="slide-tres" class="content-depoimentos slide-tres">
+                <div  class="content-depoimentos">
                     <img src="../images/depoimentos/depoimentos_03.png" alt="foto de Guilerme Silva">
                     <div class="content-nome">
                         <h2>Guilerme Silva</h2>
@@ -82,13 +84,6 @@
                     <p class="content-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eligendi deleniti pariatur, dolore maxime sapiente qui sequi itaque fugit neque. Eum, corrupti. Minima doloribus obcaecati cumque, eius repudiandae voluptatibus recusandae.</p>
                 </div>
             </div>
-
-            
-                <div class="nav-botton">
-                    <p id="um">.</p>
-                    <p id="dois">.</p>
-                    <p id="tres">.</p>
-                </div>
             </div>
         </section> 
     </main>
@@ -134,29 +129,10 @@
         </p>
     </footer>
 
-    <script>
-        const um = document.getElementById('um')
-        const dois = document.getElementById('dois')
-        const tres = document.getElementById('tres')
 
-        um.addEventListener('click', ()=>{
-            document.getElementById('slide-um').style.display = "block"
-            document.getElementById('slide-dois').style.display = "none"
-            document.getElementById('slide-tres').style.display ="none"
-        })
-
-        dois.addEventListener('click', ()=>{
-            document.getElementById('slide-um').style.display = "none"
-            document.getElementById('slide-dois').style.display = "block"
-            document.getElementById('slide-tres').style.display ="none"
-        })
-
-        tres.addEventListener('click', ()=>{
-            document.getElementById('slide-um').style.display = "none"
-            document.getElementById('slide-dois').style.display = "none"
-            document.getElementById('slide-tres').style.display ="block"
-        })        
-    </script>
-    
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="../script.js"></script>
 </body>
 </html>
