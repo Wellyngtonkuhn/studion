@@ -10,7 +10,7 @@
 
 .content-depoimentos{
     padding-top: 5rem;
-    text-align: center;
+    text-align:  center;
 }
 
 .content-nome{
@@ -39,28 +39,11 @@
     line-height: 1.875rem;
     color: #000;
     text-align: center;
+    padding-bottom: 2.9375rem;
 }
 
-.nav-botton{
-    display: flex;
-    justify-content: center;
-    gap: 1.687rem;
-    padding-bottom: 5rem;
-    margin-top: -5rem;
+
+.content-depoimentos img{
+    margin: auto;
 }
 
-.nav-botton p {
-    font-size: 7rem;
-    cursor: pointer;
-}
-
-.slide-um {
-    display: block;
-}
-
-.slide-dois {
-    display: none;
-}
-.slide-tres {
-    display: none;
-}
