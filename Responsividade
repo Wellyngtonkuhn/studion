@@ -1,0 +1,30 @@
+* Usar as medidas em REM "Para definir o tamanho das fontes e espaço em todos os dipositivos"
+
+* Primeiro definir o root para o Mobile, Tablet e Desktop
+
+    Mobile - font-size: 425vw
+    Tablet - font-size: 2.25vw
+    Desktop - font-size: 16px
+
+
+/* Mobile */
+:root{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.25vw;
+    color: var(--color-paragrafo);
+}
+
+/* Tablet */
+@media screen and(min-width: 719px ){
+    :root{
+        font-size: 2.25vw;
+    }
+}
+
+/* Desktop */
+@media screen and(min-width: 1279px ){
+    :root{
+        font-size: 16px;
+    }
+}
+
