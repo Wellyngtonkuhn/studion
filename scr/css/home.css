@@ -117,15 +117,25 @@
     text-transform: uppercase;
 }
 
+/* Mobile */
 #counter ul{
     padding: 4.375rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: flex;
+    flex-direction: column;
+}
+
+/* Desktop */
+@media screen and (min-width: 1279px){
+    #counter ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
 }
 
 #counter ul li{
     text-align: center;
     list-style: none;
+    padding: 1rem 0;
 }
 
 #counter h3{
@@ -155,23 +165,30 @@
     }
 }
 
+/* Mobile */
 .institutional img{
-    max-width: 550px;
+    max-width: 100vw;
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1279px){
+    .institutional img{
+        max-width: 550px;
+    }
 }
 
 /* Mobile */
-.institutional div{
-   padding: 0 0 1.875rem 0;
+.institucional-content{
+   padding: 0 1rem 1.875rem 1rem;
 }
 
 /* Desktop */
 @media screen and(min-width: 1279px){
-    .institutional div{
+    .institutional-content{
         padding: 1.875rem;
      }
 }
-
-
 
 .institutional h6{
     font-weight: 400;
@@ -197,44 +214,88 @@
 .quote{
     background-image: url(../images/home/parallax.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+    background-size: auto 40%;
+    background-position: 40% top;
 }
 
+/* Desktop */
+@media screen and (min-width: 1279px){
+    .quote{
+        background-attachment: fixed;  
+        background-size: cover;
+        background-position: center ;  
+    }
+}
+/* Mobile */
 .container-quote{
-    max-width: 1148px;
-    min-height: 80vh;
-    margin: 0 auto;
     display: grid;
-    align-items: center;
-    justify-content: end;
+    align-items: end;
+    justify-items: end;
+    min-height: 80vh;
 }
 
+/* Desktop */
+@media screen and (min-width: 1279px){
+    .container-quote{
+        max-width: 1148px;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+/* Mobile */
 .quote-content{
     background-color: #fff;
-    padding: 5.625rem 4.375rem;
+    padding: 1rem;
     margin: 7rem 0;
 }
 
+/* Desktop */
+@media screen and (min-width: 1279px){
+    .quote-content{
+        padding: 5.625rem 4.375rem;
+    }
+}
+
+/* Mobile */
 .quote-content h6{
     font-weight: 400;
-    font-size: .9375rem;
+    font-size: .8rem;
     letter-spacing: .1875rem;
     line-height: 1.4375rem;
-    width: 53ch;
     text-transform: uppercase;
     margin: 0;
 }
 
+/* Desktop */
+@media screen and (min-width: 1279px){
+    .quote-content h6{
+        width: 53ch;
+    }
+}
+
+/* Mobile */
 .quote-content h2{
-    font-size: 5rem;
+    font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: -.1875rem;
-    line-height: 5rem;
-    margin: 1.875rem;
+    line-height: 4rem;
+    justify-content: start;
+    padding: 2rem 0;
 }
 
 .quote-content h2 span{
     display: block;
+}
+
+/* Desktop */
+@media screen and (min-width: 1279px){
+    .quote-content h6{
+        font-size: .9375rem;
+    }
+    
+    .quote-content h2{
+        font-size: 5rem;
+        line-height: 5rem;
+        margin: 1.875rem;
+    }
 }
