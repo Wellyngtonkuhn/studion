@@ -27,6 +27,21 @@
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.349);
 }
 
+/* Mobile */
+.btn-institutional, 
+.btn-quote{
+    display: block;
+    margin: 0 auto;
+}
+
+/* Desktop */
+@media screen and (min-width: 1279px){
+    .btn-institutional,
+    .btn-quote{
+        display: inline;
+    }
+}
+
 /* Botão sessão quote */
 .btn-quote{
     color: var(--color-paragrafo);
