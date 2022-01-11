@@ -48,3 +48,13 @@
     border-color: var(--color-paragrafo);
     background: unset;
 }
+
+/* Tablet */
+@media screen and (min-width: 719px){
+    .btn-quote{
+        color: var(--color-primary);
+        border-color: var(--color-primary);
+    }
+}
+
+

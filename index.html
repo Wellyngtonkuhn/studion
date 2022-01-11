@@ -17,7 +17,7 @@
                     Studio<span class="copy-primary">On</span><span class="logo-subtitle">Eventos</span>
                 </a>
             </h1>
-            <ul>
+            <ul class="menuMobile">
                 <li>
                     <a href="#">Empresa</a>
                 </li>
@@ -34,6 +34,9 @@
                     <a href="scr/paginas/contato.html">Contato</a>
                 </li>
             </ul>
+            <button class="navbarBtnMobile">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>  
     </nav> 
 
@@ -49,7 +52,7 @@
             </div>
             <div class="slide">
                 <img src="scr/images/home/banner2.jpg" alt="StudioOn Banner">
-                <div class="content">
+                <div class="content content-center">
                     <h6><span>Próximo evento</span> - Dia 25 de setembro às 19h</h6>
                     <h2><span>Fest</span> Foward</h2>
                     <button class="btn btn-slide">Saiba Mais</button>
@@ -57,7 +60,7 @@
             </div>
             <div class="slide">
                 <img src="scr/images/home/banner3.jpg" alt="StudioOn Banner">
-                <div class="content">
+                <div class="content content-center">
                     <h6><span>Próximo evento</span> - Dia 25 de setembro às 19h</h6>
                     <h2><span>Show</span> Event</h2>
                     <button class="btn btn-slide">Saiba Mais</button>
@@ -71,15 +74,16 @@
         <section id="counter">
             <ul class="container">
                 <li>
-                    <h3>+ de 500 <small>eventos realizados</small>
+                    <h3>+ de <span class="counter_number"> 500</span> <small>eventos realizados</small>
                     </h3>
                 </li>
                 <li>
-                    <h3>+ de 1.000.000 <small>de ingressos vendidos</small>
+                    <h3>+ de 
+                        <span class="counter_number">750.000</span><small> de ingressos vendidos</small>
                     </h3>
                 </li>
                 <li>
-                    <h3>+ de 300 <small>empresas atendidas</small>
+                    <h3>+ de <span class="counter_number">300 </span><small> empresas atendidas</small>
                     </h3>
                 </li>
             </ul>
@@ -152,6 +156,8 @@
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="http://ciromattia.github.io/jquery.counterup/jquery.counterup.js"></script>
     <script src="./scr/script.js"></script>
 </body>
 </html>
