@@ -74,6 +74,7 @@
         left: 70vw;
         top: 30vh;   
     }
+    
     .content-center{
         left: 50%;
         text-align: center;
@@ -88,8 +89,14 @@
         top: 30%;
         
     }
+
     .content span{
         display: inline;
+    }
+
+    .content-center{
+        left: 50%;
+        text-align: center;
     }
 }
 
