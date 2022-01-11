@@ -11,14 +11,14 @@
 }
 
 /* Tablet */
-@media screen and(min-width: 719px ){
+@media screen and (min-width: 719px ){
     :root{
         font-size: 2.25vw;
     }
 }
 
 /* Desktop */
-@media screen and(min-width: 1200px ){
+@media screen and (min-width: 1279px ){
     :root{
         font-size: 16px;
     }

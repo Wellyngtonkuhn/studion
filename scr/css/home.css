@@ -32,13 +32,13 @@
 
 /* Mobile */
 .slick-arrow{
-    opacity: 0;
+    visibility: hidden;
 }
 
 /* Desktop */
-@media screen and(min-width: 1279px){
-    .sslick-arrow{
-        opacity: 0.8;
+@media screen and (min-width: 1279px){
+    .slick-arrow{
+        visibility: visible;
     }
 }
 
@@ -67,11 +67,26 @@
     display: block;
 }
 
-/* Desktop */
-@media screen and(min-width: 1279px){
+/* Tablet */
+@media screen and (min-width: 719px){
     .content{
-        left: 50%;
         text-align: unset;
+        left: 70vw;
+        top: 30vh;   
+    }
+    .content-center{
+        left: 50%;
+        text-align: center;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1279px){
+    .content{
+        text-align: unset;
+        left: 70vw;
+        top: 30%;
+        
     }
     .content span{
         display: inline;
@@ -92,11 +107,19 @@
     line-height: 4.25rem;
 }
 
+/* Tablet */
+@media screen and (min-width: 719px){
+    .content h2{
+    padding: 1rem 0;  
+    }
+}
+
 /* Desktop */
-@media screen and(min-width: 1279px){
+@media screen and (min-width: 1279px){
     .content h2{
         font-size: 6.25rem;
         line-height: 6.25rem;
+        padding: 1rem 0;
     }
 }
 
@@ -150,18 +173,26 @@
 /*Sessão Institucional */
 /* Mobile */
 .institutional{
-    display: grid;
-    grid-template-rows: auto auto;
+    display: flex;
+    flex-direction: column;
     gap: 3.125rem;
     align-items: center;
     padding: 0 0 4.375rem 0 ;
 }
 
-/* Desktop */
-@media screen and(min-width: 1279px){
+/* Tablet */
+@media screen and (min-width: 719px){
     .institutional{
-        grid-template-columns: auto auto;
+        max-width: 670px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1279px){
+    .institutional{
+        flex-direction: row;
         padding: 4.375rem;
+        max-width: unset;
     }
 }
 
@@ -171,7 +202,6 @@
 }
 
 /* Desktop */
-
 @media screen and (min-width: 1279px){
     .institutional img{
         max-width: 550px;
@@ -184,7 +214,7 @@
 }
 
 /* Desktop */
-@media screen and(min-width: 1279px){
+@media screen and (min-width: 1279px){
     .institutional-content{
         padding: 1.875rem;
      }
@@ -203,6 +233,7 @@
     margin-top: 1rem;
 }
 
+/* Mobile / Desktop */
 .institutional p{
     font-size: 1.0625rem;
     line-height: 1.6875rem ;
@@ -210,12 +241,30 @@
     margin: 2.5rem 0;
 }
 
+/* Tablet */
+@media screen and (min-width: 719px){
+    .institutional p{
+        font-size: 1.3rem;
+     }
+}
+
+
 /* Sessão Quote */
 .quote{
     background-image: url(../images/home/parallax.jpg);
     background-repeat: no-repeat;
     background-size: auto 40%;
     background-position: 40% top;
+}
+
+/* Tablet */
+@media screen and (min-width: 719px){
+    .quote{
+        background-size: contain;
+        background-attachment: fixed;  
+        background-size: cover;
+        background-position: center ;  
+    }
 }
 
 /* Desktop */
@@ -226,6 +275,7 @@
         background-position: center ;  
     }
 }
+
 /* Mobile */
 .container-quote{
     display: grid;
@@ -249,10 +299,25 @@
     margin: 7rem 0;
 }
 
+/* Tablet */
+@media screen and (min-width: 719px){
+    .quote-content{
+        text-align: center;
+        background-color: #000000d7;
+        color: #fff;
+        padding: 3rem 0;
+        margin: auto;
+    }
+}
+
 /* Desktop */
 @media screen and (min-width: 1279px){
     .quote-content{
         padding: 5.625rem 4.375rem;
+        background-color: #fff;
+        color: #000;
+        padding: 1rem;
+        margin: 7rem 0;
     }
 }
 
