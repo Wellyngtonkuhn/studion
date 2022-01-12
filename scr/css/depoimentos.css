@@ -14,24 +14,36 @@
 }
 
 .content-nome{
-    padding-top: 2rem;
+    padding: 2rem 1rem 0 1rem;
     color: #000;
     max-width: 27.687rem;
     margin: auto;
+    
 }
 
 .content-depoimentos h2{
     font-size: 3.125rem;
     letter-spacing: -2px;
+    line-height: 3.2rem;
 }
 
+/* Mobile */
 .content-depoimentos h3{
     font-size: .875rem;
     letter-spacing: 3px;
     font-weight: 400;
+    padding-top: 1rem;
     padding-bottom: 1.812rem;
 }
 
+/* Desktop */
+@media screen and (min-width:1280px){
+    .content-depoimentos h3{
+        padding-top: unset;
+    }
+}
+
+/* Mobile */
 .content-descricao{
     margin:  auto;
     max-width: 36.812rem;
@@ -40,8 +52,8 @@
     color: #000;
     text-align: center;
     padding-bottom: 2.9375rem;
+    padding: 0 1rem 2.97375rem 1rem;
 }
-
 
 .content-depoimentos img{
     margin: auto;

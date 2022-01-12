@@ -5,6 +5,7 @@
     left: 0;
     width: 100%;
     color: #fff;
+    padding-top: 1rem;
 }
 
 .navbar .container{
@@ -34,7 +35,7 @@ nav .active{
     align-items: center;
     justify-content: center;
     justify-items: center;
-    gap: 6rem;
+    gap: 4rem;
     position: absolute;
     color: white;
     top: 0;
