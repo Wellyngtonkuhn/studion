@@ -49,7 +49,6 @@ nav .active{
 
 /* Mobile */
 .navbar ul li{
-
     font-size: 2rem;
     text-transform: uppercase;
 }
@@ -68,7 +67,7 @@ nav .active{
     font-weight: 300;
 }
 
-.navbar ul li a.active{
+.navbar ul li a.ativo{
     color: var(--color-primary);
 }
 
