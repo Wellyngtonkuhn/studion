@@ -47,15 +47,13 @@
         position: absolute;
         left: 50%;
         bottom: 0;
-        padding: 7rem 0;
         width: 35vw;
-    
     }
 }
 
 /* Mobile */
 .hero-content h2{
-    font-size: 5.5rem;
+    font-size: 5rem;
     color: var(--color-primary);
     letter-spacing: -.3125rem;
     line-height: 7.5rem;

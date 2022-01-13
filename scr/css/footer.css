@@ -1,12 +1,17 @@
-
-
-/* Footer */
-
+/* Mobile */
 .footer{
     background-color: #000;
     color: #fff;
     padding: 0 1rem;
     align-items: center;
+    margin-top: -5px;
+}
+
+/* Desktop */
+@media screen and (min-width: 1279px){
+    .footer{
+        margin-top: unset;
+    }
 }
 
 /* Mobile */
