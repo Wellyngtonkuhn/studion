@@ -1,0 +1,50 @@
+.content_eventos{
+    padding: 5.687rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content_info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content_info .banner_evento_info{
+    width: 12rem;
+    height: 12rem;   
+}
+
+.content_info h4{
+    color: var(--color-primary);
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: .25rem;
+    line-height: 1.125rem;
+    padding-top: 1.93rem;
+    padding-bottom: 2.062rem;
+}
+
+.content_info h6{
+    font-size: .937rem;
+    letter-spacing: .187rem;
+    line-height: 1.125rem;
+    color: #000000;
+    font-weight: 700;
+    padding-bottom: 1.93rem;
+}
+
+.content_info h6 img{
+    margin-bottom: -5px;
+}
+
+.content_info p{
+    width: 50ch;
+}
+
+.separador{
+    background-color: #000000;
+    border: 1px solid #d2d2d2;
+    margin: 2.875rem 0;
+}

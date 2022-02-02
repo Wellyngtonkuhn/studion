@@ -1,5 +1,7 @@
 .hero{
     height: 90vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.7875525210084033) 6%, rgba(0,0,0,0.3981967787114846) 52%, rgba(0,0,0,1) 84%)
 }
 
 /* Mobile */
@@ -8,7 +10,6 @@
     z-index: -1;
     height: 100%;
     width: 100%;
-    opacity: 0.9;
 }
 
 /* Desktop */
@@ -30,7 +31,7 @@
     bottom: 4rem;
     padding: 7rem 0;
     text-align: center;
-    width: 100%;
+    width: 100%;    
 }
 
 /* Tablet */
