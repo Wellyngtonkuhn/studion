@@ -1,7 +1,13 @@
+.container_eventos{
+    padding-top: 2.937rem;
+    padding-bottom: 5.687rem;
+}
+
 .content_eventos{
-    padding: 5.687rem 2rem;
     display: flex;
     flex-direction: column;
+   /* padding-top: 1.93rem;
+    margin-top: 2.75rem;*/
 }
 
 .content_info{
@@ -9,6 +15,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 0 2rem;
+    margin: 2.75rem 0;
 }
 
 .content_info .banner_evento_info{
@@ -22,7 +30,6 @@
     font-weight: 700;
     letter-spacing: .25rem;
     line-height: 1.125rem;
-    padding-top: 1.93rem;
     padding-bottom: 2.062rem;
 }
 
@@ -43,8 +50,17 @@
     width: 50ch;
 }
 
+.content_info p:nth-child(0){
+    padding-bottom: 4.1875rem;
+    background-color: red;
+}
+
 .separador{
     background-color: #000000;
     border: 1px solid #d2d2d2;
-    margin: 2.875rem 0;
+}
+
+.evento_destaque{
+    width: 100%;
+    background-color: #f5f5f5;
 }
