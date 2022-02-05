@@ -88,7 +88,11 @@
         text-transform: uppercase;
         border: unset;
         cursor: pointer;
-        transition: .5s all ease;
+}
+
+.evento_btn_como_chegar{
+    margin: auto;
+    padding-bottom: 2.062rem;
 }
 
 

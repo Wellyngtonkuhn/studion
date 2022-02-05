@@ -6,31 +6,75 @@
 .content_eventos{
     display: flex;
     flex-direction: column;
-   /* padding-top: 1.93rem;
-    margin-top: 2.75rem;*/
 }
 
+/* Mobile */
 .content_info{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
-    margin: 2.75rem 0;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 2rem;
 }
 
+/* Tablet */
+@media screen and (min-width: 720px){
+    .content_info{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .content_info{
+        justify-content: space-between;
+        align-items: center;
+        text-align: unset;
+        margin: 2.75rem 0;
+    }
+}
+
+/* Mobile */
 .content_info .banner_evento_info{
-    width: 12rem;
-    height: 12rem;   
+    width: 100%;
+    height: 100%;   
 }
 
+/* Tablet */
+@media screen and (min-width: 720px){
+    .content_info .banner_evento_info{
+        width: 100%;
+        height: 100%;   
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 1280px){
+    .content_info .banner_evento_info{
+        width: 12rem;
+        height: 12rem;   
+    }
+}
+
+
+
+/* Moblibe */
 .content_info h4{
     color: var(--color-primary);
     font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: .25rem;
     line-height: 1.125rem;
+    padding-top: 2.062rem;
     padding-bottom: 2.062rem;
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .content_info h4{
+        padding-top: unset;
+    }
 }
 
 .content_info h6{
@@ -44,21 +88,53 @@
 
 .content_info h6 img{
     margin-bottom: -5px;
-
 }
 
+/* Mobile */
 .content_info p{
-    width: 50ch;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 2.62rem;
 }
 
+/* Tablet */
+@media screen and (min-width: 720px){
+    .content_info p{
+        width: auto;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .content_info p{
+        width: 50ch;
+        padding-bottom: unset;
+    }
+}
+
+/* Mobile*/
 .evento_destaque_paragrafo{
-    padding-top: 5.75rem;
     padding-bottom: 2.5rem;
 }
 
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .evento_destaque_paragrafo{
+        padding-top: 3.75rem;
+    }
+}
+
+/* Mobile */
 .evento_destaque_coluna{
     display: flex;
     flex-wrap: wrap;
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .evento_destaque_coluna{
+        padding-top: 2rem;
+    }
 }
 
 .separador{
