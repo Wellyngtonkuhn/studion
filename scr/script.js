@@ -22,14 +22,17 @@ $(document).ready(function(){
         nextArrow : '<button type="button" class="slick-next slider-next-arrow">Next</button>'
       });
 
-      setInterval(()=>{
-        const numberCollection = document.querySelectorAll('.counter_number')
+      setInterval(() => {
+        const numberCollection = document.querySelectorAll(".counter_number");
 
-        numberCollection.forEach((number)=>{
-          const currentNumber = parseInt(number.innerHTML)
-          number.innerHTML = currentNumber + 1
-        })
-      },5000)
+        numberCollection.forEach((number) => {
+          const currentNumber = Number(number.textContent);
+          const total = currentNumber + 1;
+          number.textContent = total;
+
+          console.log(total.toLocaleString());
+        });
+      }, 1000);
 
       const counterOption = {
         delay: 10,

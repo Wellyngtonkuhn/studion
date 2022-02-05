@@ -44,15 +44,21 @@
 
 .content_info h6 img{
     margin-bottom: -5px;
+
 }
 
 .content_info p{
     width: 50ch;
 }
 
-.content_info p:nth-child(0){
-    padding-bottom: 4.1875rem;
-    background-color: red;
+.evento_destaque_paragrafo{
+    padding-top: 5.75rem;
+    padding-bottom: 2.5rem;
+}
+
+.evento_destaque_coluna{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .separador{

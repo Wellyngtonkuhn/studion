@@ -77,4 +77,23 @@
     border-color: var(--color-primary);
 }
 
+/* Botão destaque eventos */
+.btn_evento_destaque{
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 24px;
+        border-radius: 25px;
+        color: var(--color-primary);
+        background-color: unset;
+        text-transform: uppercase;
+        border: unset;
+        cursor: pointer;
+        transition: .5s all ease;
+}
+
+
+    
+
+
+
 
